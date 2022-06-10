@@ -1,0 +1,28 @@
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img{
+      height: 60px;
+    }
+
+    ul{
+      display: flex;
+      list-style-type: none;
+      line-height: 100px;
+
+      li{
+        height: 100%;
+        margin-left: 20px;
+        color: hsl(209deg 98% 49%);
+        border-bottom: 5px solid transparent;
+        text-transform: uppercase;
+      }
+
+      li:hover{
+        border-bottom: 5px solid hsl(209deg 98% 49%);
+      }
+    }
+  };
