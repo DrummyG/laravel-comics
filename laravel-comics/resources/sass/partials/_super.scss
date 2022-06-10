@@ -1,0 +1,151 @@
+.super{
+    background-color: white;
+
+    .sep{
+        height: 50px;
+        position: relative;
+        background-color: hsl(209deg 98% 49);
+
+        img{
+            height: 250px;
+            position: absolute;
+            bottom: 25px;
+            left: 200px;
+        }
+    }
+
+    .info{
+        background-color: lightgray;
+        height: auto;
+
+        ul{
+            border: 1px solid grey;
+            height: 50px;
+            align-items: stretch;
+        }
+        li{
+            height: 100%;
+            display: flex;
+            gap: 30px;
+            justify-content: space-around;
+            align-items: flex-start;
+            font-size: 10px;
+            color: grey;
+            background-color: lightgray;
+            height: auto;
+            border-left: 1px solid grey;
+            border-right: 1px solid grey;
+            margin-left: 0px;
+            padding: 0px 10px;
+
+            p{
+                line-height: normal;
+            }
+
+            img{
+                align-self: center;
+                height: 30px;
+                width: auto;
+            }
+        }
+    }
+
+    .top{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 50px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+
+        .desc{
+            width: 35%;
+        }
+
+        .right{
+            height: 100%;
+            .top-img{
+                font-size: large;
+                color: grey;
+                text-transform: uppercase;
+            }
+
+            img{
+                height: 70%;
+            }
+        }
+
+        .diff{
+            background-color: limegreen;
+            color: white;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid green;
+            height: 30px;
+            margin: 20px 0;
+
+            div{
+                height: 100%;
+                border-right: 1px solid green;
+                padding: 0 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 70%;
+            }
+
+            span{
+                color: lime;
+            }
+        }
+
+        .story{
+            color: lightgray;
+            font-size: small;
+        }
+    }
+
+    .plus{
+        height: 450px;
+        background-color: lightgrey;
+    }
+
+    .flexer-big{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100%;
+        gap: 30px;
+        padding: 15px;
+        font-size: small;
+
+        .width-diff{
+            width: 40%;
+
+            h3{
+                margin: 20px 0;
+            }
+
+            .width-diff-two{
+                width: 70%;
+            }
+
+            .divider{
+                display: flex;
+                justify-content: space-between;
+                padding: 5px 0;
+                border-bottom: 1px solid grey;
+                border-top: 1px solid grey;
+
+                a{
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+            }
+
+            .padding-diff{
+                padding-right: 50px;
+            }
+        }
+    }
+}

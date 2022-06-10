@@ -205,3 +205,157 @@ main .info ul li img {
   width: 40px;
 }
 
+.super {
+  background-color: white;
+}
+
+.super .sep {
+  height: 50px;
+  position: relative;
+  background-color: hsl(209deg, 98%, 49%);
+}
+
+.super .sep img {
+  height: 250px;
+  position: absolute;
+  bottom: 25px;
+  left: 200px;
+}
+
+.super .info {
+  background-color: lightgray;
+  height: auto;
+}
+
+.super .info ul {
+  border: 1px solid grey;
+  height: 50px;
+  align-items: stretch;
+}
+
+.super .info li {
+  height: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-size: 10px;
+  color: grey;
+  background-color: lightgray;
+  height: auto;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  margin-left: 0px;
+  padding: 0px 10px;
+}
+
+.super .info li p {
+  line-height: normal;
+}
+
+.super .info li img {
+  align-self: center;
+  height: 30px;
+  width: auto;
+}
+
+.super .top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.super .top .desc {
+  width: 35%;
+}
+
+.super .top .right {
+  height: 100%;
+}
+
+.super .top .right .top-img {
+  font-size: large;
+  color: grey;
+  text-transform: uppercase;
+}
+
+.super .top .right img {
+  height: 70%;
+}
+
+.super .top .diff {
+  background-color: limegreen;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid green;
+  height: 30px;
+  margin: 20px 0;
+}
+
+.super .top .diff div {
+  height: 100%;
+  border-right: 1px solid green;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.super .top .diff span {
+  color: lime;
+}
+
+.super .top .story {
+  color: lightgray;
+  font-size: small;
+}
+
+.super .plus {
+  height: 450px;
+  background-color: lightgrey;
+}
+
+.super .flexer-big {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  gap: 30px;
+  padding: 15px;
+  font-size: small;
+}
+
+.super .flexer-big .width-diff {
+  width: 40%;
+}
+
+.super .flexer-big .width-diff h3 {
+  margin: 20px 0;
+}
+
+.super .flexer-big .width-diff .width-diff-two {
+  width: 70%;
+}
+
+.super .flexer-big .width-diff .divider {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.super .flexer-big .width-diff .divider a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.super .flexer-big .width-diff .padding-diff {
+  padding-right: 50px;
+}
+
